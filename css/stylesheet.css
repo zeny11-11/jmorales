@@ -1,0 +1,889 @@
+stylesheet.css
+DETAILS
+ACTIVITY
+stylesheet.css
+Sharing Info
+
+General Info
+Type
+Style Sheet
+Size
+15 KB (14,849 bytes)
+Storage used
+15 KB (14,849 bytes)
+Location
+jmo-public
+Owner
+me
+Modified
+Mar 16, 2017 by me
+Opened
+3:14 PM by me
+Created
+Mar 16, 2017 with Google Drive Web
+Description
+Add a description
+Download permissions
+Viewers can download
+
+@charset "UTF-8";
+
+
+* {
+	padding: 0;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 0;
+}
+
+body {
+	width:100%;
+	margin:0 auto;
+    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+	font-weight:400;
+	letter-spacing:2px;
+	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+	-webkit-text-size-adjust: 100%;
+	color:#fff;
+	padding:0;
+	text-decoration:none;
+	background-color:#000;
+}
+
+a {
+	text-decoration:none;
+    color:#fff;
+	font-weight:400;
+	letter-spacing:2px;
+}	
+
+.clearfix {
+	clear:both;
+}
+
+nav header aside section aside {
+	display:block;
+}
+
+section {
+	width:100%;
+	margin: 0 auto;
+	padding:0;
+}
+
+
+
+
+/* ************** MAIN NAV ********************/
+
+#main_nav {
+	width:100%;
+	height:80px;
+	padding-top:40px;
+	margin:0 auto;
+   text-align:center;
+	position:fixed;
+	background: url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	/*border-top:3px solid;
+   -webkit-border-image: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
+   -o-borderimage: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
+    border-image: url(http://s23.postimg.org/c4d1fknij/header.png) 2 0 0 0 round; */
+    z-index: 5000;
+}
+
+#main_nav ul { 
+    padding:10px;
+	text-align:center;
+	margin:0 auto;
+	position: relative;
+    display: inline-block;
+}
+
+#main_nav ul li {
+	list-style:none;
+	display:inline-block;
+	float:left;
+	margin:0 5px;
+	font-weight:100;
+	letter-spacing:1px;
+}
+
+
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+	padding:15px;
+}
+
+#menu-button {
+	display:none;	
+}
+
+
+/* ************** a:hover underline transition ********************/
+
+.underline {
+  position: relative;
+  color: #ffffff;
+}
+
+.underline:after {
+  display: block;
+  position: absolute;
+  left: 7px;
+  bottom: 7px;
+  width: 0;
+  height: 2px;
+  background: #1692d0;
+  content: "";
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.underline:hover {
+  color: #1692d0;
+}
+
+.underline:focus{
+  color: #1692d0;
+}
+
+.underline:hover:after {
+  width: 85%;
+}
+
+
+#margin-top {
+	height:120px;
+	width:85%;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+}
+
+
+
+
+/* ************** HEADER ********************/
+	
+#header {
+   width:100%;
+   height:600px;
+   height:100vh;
+   background:url("/images/header_img.jpg")no-repeat;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   background-position:top center;
+   overflow-x: hidden;
+   text-align:center;
+   z-index:-1000;
+}
+
+
+#header #logo {
+	position:relative;
+	top:17%;
+	display:block;
+
+}
+
+#header #logo img {
+	height:50px;
+
+}
+
+#header h1 {
+	font-family:"baskerville_oldstyle_ssibold", Georgia, "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-size: 60px;
+    font-weight:bold;
+	font-style:italic;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-top: 7px;
+
+}
+
+#header h3 {
+	font-family: "UniversLT-LightOblique",'Open Sans', Arial, Helvetice Neue, sans-serif;
+	font-style:italic;
+	color:#1692d0;
+	font-size:35px;
+	font-weight:200;
+	font-style:italic;
+	text-transform:uppercase;
+	letter-spacing:7px;
+	margin-left:-10px;
+	margin-top:15px;
+}
+
+@media only screen and (max-width: 750px) {
+#header h1 {
+    font-size: 48px;
+    line-height: 58px;
+    margin-top:0;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header h3 {
+	font-size:27px;
+	margin-top:3px;
+	font-weight:300;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:42px;
+
+}
+}
+
+@media only screen and (max-width: 600px) {
+#header h1 {
+    font-size: 38px;
+    line-height: 44px;
+}
+
+#header h3 {
+	font-size:20px;
+	font-weight:500;
+	margin-top:6px;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:35px;
+
+}
+}
+
+@media only screen and (max-width: 500px) {
+#header h1 {
+    font-size: 48px;
+    line-height: 52px;
+	margin-top:5px;
+}
+
+#header h3 {
+	font-size:21px;
+	font-weight:500;
+	margin-top:0;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:38px;
+
+}
+}
+
+@media only screen and (max-width: 400px) {
+#header h1 {
+    font-size: 38px;
+    line-height: 44px;
+	margin-top:2px;
+}
+
+#header h3 {
+	font-size:16px;
+	font-weight:500;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:30px;
+
+}
+}
+
+
+
+
+
+
+.letterspacing { letter-spacing:1px;}
+.letterspacing4 { letter-spacing:5px;}
+
+/* **************HR with H2 in middle ********************/
+h2 {
+    overflow: hidden;
+    text-align: center;
+	font-weight:200;
+}
+h2:before,
+h2:after {
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+h2:before {
+    right: 0.9em;
+    margin-left: -50%;
+}
+h2:after {
+    left: 0.9em;
+    margin-right: -50%;
+}
+
+
+/* ************** PORTFOLIO ********************/
+
+#portfolio_sec {
+	background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	padding-top:150px;
+	width:100%;
+	margin: 0 auto;
+}
+
+.gallery_nav {
+	position: relative; 
+	width: 100%; 
+	margin: 0 auto; 
+	-webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+   -o-transition: all 1s ease;
+   transition: all 1s ease;
+   text-align:center;
+   padding:20px 0 20px 0;
+}
+
+
+.gallery_portfolio { 
+	position: relative; 
+	width: 100%; 
+	margin: 0 auto; 
+	-webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    text-align:center;
+}
+ 
+#filters {
+	list-style:none;
+	padding:0;
+	text-align:center;
+	margin:0 auto;
+	position: relative;
+    display: inline-block;
+}
+
+#filters li {
+	float:left;
+	display:inline-block;
+	padding:15px 10px;		
+	text-decoration:none;
+	color:#ffffff;
+	cursor: pointer;
+}
+
+
+#filters li:hover {
+     color:#1692d0;
+}
+	
+#portfoliolist {
+     text-align:center;
+     width:100%;
+	 margin:0 auto;
+	 padding-top:30px;
+	 padding-bottom:100px;
+}
+
+#portfoliolist .portfolio {
+    width:300px;
+	height:300px;
+	margin-bottom:20px;
+	margin-left:20px;
+    display:inline-block;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-o-box-sizing: border-box;
+}
+
+.portfolio:hover .project-overlay {
+    transition: all 0.3s ease-in-out 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.project-overlay {
+    background : rgba(22,146,208,.80);
+    border : none/*2px solid #1692d0*/;
+    visibility: hidden;
+    position: absolute;
+    text-align:center;
+    padding:20px;
+    color: #ffffff;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    left: 0;
+    top: 0;
+	margin:0 auto;
+}
+
+.project-overlay > h3 { 
+   line-height:30px;
+   padding-bottom:10px;
+   text-align:center;
+   font-weight:400;
+   margin:0 auto 0 -20px;
+   text-transform:uppercase;
+
+}
+
+.project-overlay > p { 
+   line-height:20px;
+   padding-top:15px;
+   width:240px;
+   margin:0 0 0 10px;
+
+   font-size:14px;
+   text-align:center;
+   max-width:270px;
+
+}
+
+.project-overlay hr {
+    width : 80%;
+	margin:0 auto 0 10px;
+	border: solid 1px #fff;
+}
+
+.portfolio-wrapper {
+	overflow:hidden;
+	position: relative !important;
+	cursor:pointer;
+}
+
+.portfolio img {
+	max-width:200%;
+	position: relative;
+	top:-120px;
+	left:-120px;
+}
+
+
+
+/************** ABOUT  *****************/
+
+#about_sec {
+	width:100%;
+	background-color:#1692d0;
+	/*background:url(http://s29.postimg.org/rrxpex9qv/mt_shastabg2.jpg) no-repeat;*/
+	/*background:url(https://dl.dropboxusercontent.com/u/95636795/about_bg.jpg);*/
+	/*background-size: cover;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-position:top center;*/
+/*box-sizing: content-box;*/
+    overflow-x: hidden;
+    clear:both;
+	margin:0 auto;
+	text-align:center;
+	padding-top:150px;
+	padding-bottom:80px
+}
+
+
+
+.about_div1 { 
+     width:100%;
+	 margin:0 auto;
+	 padding-top:80px;
+	 display: block;
+	 text-align:center;
+}
+
+.about_div1 p {
+	-webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+	margin-left:auto;
+	line-height:1.7em;
+	text-align:left;
+	-moz-hyphens: none;
+    -ms-hyphens: none;
+    -webkit-hyphens: none;
+    hyphens: none;
+	width:60%
+}
+
+.about_div2 { 
+     width:100%;
+	 margin:0 auto;
+	 display: block;
+	 text-align:center;
+	 padding-bottom:80px;
+}
+
+.me {
+    overflow: hidden;
+    text-align: center;
+	border:#fff thin solid;
+	border-radius:50%;
+	-moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -webkit-border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin-top:25px;
+}
+
+.me:before, .me:after {
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 40%;
+}
+.me:before {
+    right: 0.9em;
+    margin-left: -50%;
+}
+.me:after {
+    left: 0.9em;
+    margin-right: -50%;
+}
+
+
+
+
+footer {
+	width:100%;
+	background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	margin:0 auto;
+	text-align:center;
+	padding-top:30px;
+	padding-bottom:30px;
+	font-size:12px;
+}
+
+footer p {
+	display:inline-block; 
+	max-width:600px; 
+	position:relative; 
+	margin-bottom:15px;
+}
+
+footer a {
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+
+footer img {
+	display:inline-block; 
+	position:relative; 
+	vertical-align: text-bottom;
+}
+
+#contact {
+	display:none;
+	
+}
+	
+
+/*  #Mobile  for Portfolio-  */
+@media only screen and (max-width: 660px) {
+
+#portfoliolist .portfolio {
+	width:250px;
+	height:250px;
+	margin-left:10px;
+	margin-bottom:10px;
+}
+
+.project-overlay > * { 
+     display:none;
+}
+
+
+}
+
+@media only screen and (max-width: 522px) {
+
+#portfoliolist .portfolio {
+	width:230px;
+	height:230px;
+}
+
+}
+
+@media only screen and (max-width: 482px) {
+
+#portfoliolist .portfolio {
+	width:200px;
+	height:200px;
+}
+}
+
+@media only screen and (max-width: 422px) {
+
+#portfoliolist .portfolio {
+	width:170px;
+	height:170px;
+	margin-bottom:2px;
+}
+
+.portfolio img {
+		max-width:200%;
+		position: relative;
+		top:-60px;
+		left:-60px;
+}
+
+}
+
+@media only screen and (max-width: 382px) {
+
+#portfoliolist .portfolio {
+	width:150px;
+	height:150px;
+	margin-bottom:2px;
+}
+}
+
+@media only screen and (max-width: 900px) {
+#portfoliolist .portfolio:nth-child(even) { margin-left:7px;}
+#portfoliolist .portfolio:nth-child(odd) { margin-right:7px; margin-left:0;}
+}
+
+@media only screen and (max-width: 700px) {
+	
+/************** MOBILE NAV  *****************/	
+
+
+#margin-top {
+	display:none;
+}
+
+	
+#main_nav {
+	display:none;
+}
+/*	height:auto;
+	margin:0 auto;
+	text-align:left;
+	padding-top:0;
+	top:0;
+	left:0;
+}
+  
+#main_nav ul {
+    width: 100%;
+    display: none;
+	margin:0 auto;
+	padding:0;
+	text-align:center;
+ }
+ 
+#main_nav ul li {
+    padding-top:15px;
+	padding-bottom:15px;
+	display:block;
+	width:100%;
+}
+
+  
+#main_nav ul li a {
+    width: 100%;
+	line-height: 20px;
+}
+
+
+#menu-line {
+    display: none;
+}
+
+#main_nav #menu-button {
+    display:inline-block;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+  
+#main_nav #menu-button::after {
+    content: '';
+    position: absolute;
+    top: 25px;
+    right: 30px;
+    display:inline-block;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+}
+
+#main_nav #menu-button::before {
+    content: '';
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    display:inline-block;
+    width: 25px;
+    height: 3px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+  
+#menu-button::before:hover {
+	border-top: 2px solid #1692d0;
+    border-bottom: 2px solid #1692d0;
+}
+	  
+*/
+/************** END MOBILE NAV  *****************/		
+	
+#header #logo {
+	position:relative;
+	top:16%;
+
+}
+
+#portfolio_sec {
+	padding-top:80px;
+}
+
+#portfoliolist .portfolio:nth-child(even) { margin-left:1px;}
+#portfoliolist .portfolio:nth-child(odd) { margin-right:1px; margin-left:0;}
+
+
+#about_sec {
+    padding-top:80px;
+	padding-bottom:50px;
+}
+
+.about_div1 { 
+     padding-top:40px;
+	 width:100%;
+}
+
+.about_div1 p { 
+   margin-right:auto;
+   margin-left: auto;
+   width:80%;
+	
+}
+
+footer span {
+	display:none;
+}
+
+footer p { 
+     display:block;
+	 text-align:center;
+	 margin-top:0;
+	 margin-right:auto;
+	 margin-bottom:6px;
+	 margin-left:auto;
+	 
+}
+
+footer img  {
+	display:block;
+	margin:0 auto;
+	margin-bottom:12px;
+	
+}
+
+#contact {
+	display:block;
+	width:100%;
+	padding-top:15px;
+	padding-bottom:30px;
+    margin-bottom:40px;
+	border-bottom:1px solid #1d242d;
+}
+
+#contact h1 {
+	margin-bottom:7px;
+}
+
+#contact a {
+	color: #1692d0;
+	font-weight:bold;
+	width:100%;
+	text-align:center;
+}
+
+footer span {
+	display:none;
+}
+
+[title~=notmobile] { 
+    display:none;
+}
+
+footer a {
+	
+	display:block;
+	width:200px;
+	margin:0 auto;
+	padding-top:5px;
+}
+
+}
+
+
+
+
+/************** BASKERVILLE OLDSTYLE  *****************/
+
+
+@font-face {
+    font-family:"baskerville_oldstyle_ssibold";
+    src: url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.eot");
+    src: local("☺"),
+	     url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.eot?#iefix") format("embedded-opentype"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.woff2") format("woff2"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.woff") format("woff"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.ttf") format("truetype"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.svg") format("svg");
+    font-weight: bold;
+    font-style:italic;
+
+}
+
+@font-face {
+    font-family: "UniversLT-LightOblique";
+    src: url("https://dl.dropboxusercontent.com/u/95636795/font2/UniversLT-LightOblique.eot");
+    src: local("☺"), 
+	     url("https://dl.dropboxusercontent.com/u/95636795/font2/UniversLT-LightOblique.eot?#iefix") format("embedded-opentype"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font2/UniversLT-LightOblique.woff") format("woff"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font2/UniversLT-LightOblique.ttf") format("truetype"),
+         url("https://dl.dropboxusercontent.com/u/95636795/font2/UniversLT-LightOblique.svg") format("svg");
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+/*@font-face {
+  font-family: "Baskerville OldStyle SSi";
+  src: url("http://typefront.com/fonts/825593601.eot?");
+  src: local("☺"),
+       url("http://typefront.com/fonts/825593601.woff") format("woff"),
+       url("http://typefront.com/fonts/825593601.ttf") format("truetype"),
+       url("http://typefront.com/fonts/825593601.otf") format("opentype"),
+       url("http://typefront.com/fonts/825593601.svg") format("svg");
+}
+*/
