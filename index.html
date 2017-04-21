@@ -6,17 +6,17 @@ layout: default
 
 <header id="header">
 
-<div id="logo">
-<a href="#"><img src="http://static.tumblr.com/7e422dff4e232c238271127c08fa6f96/3e5u7mh/fscnp4u29/tumblr_static_2apr4l5ex0iso8os0o884k4gw.png" height="50px" ></a>
-<h1>JACQUELINE MO<span class="letterspacing4">R</span>ALES</h1>
-<h3>Graphic & Web Designer</h3>
+<div id="logo" class="fadeInDown animated">
+
+<h1>Jacqueline Morales</h1>
+<h3 class="wow bounce animated" data-wow-delay="2s">Graphic & Web Designer</h3>
 </div>
 
 </header>
 
 <section id="portfolio_sec"  >
 
-<h2>SELECTED WORK</h2>  
+<h2 class="wow bounce" data-wow-delay="1s">SELECTED WORK</h2>  
 
 <div class="gallery_nav">
 
@@ -32,7 +32,7 @@ layout: default
        </div>
         <div class="gallery_portfolio">
 
-		<div id="portfoliolist">
+		<div id="portfoliolist" class="wow fadeIn animated" data-wow-delay="1s">
 
 <!-- THUMB --><div class="portfolio print all" >
             <a class="gallery-item" href="https://68.media.tumblr.com/e0b666ca758c1e3b663644c3766c6248/tumblr_oesqv0jVmM1sp2tqho1_1280.jpg">
@@ -347,7 +347,7 @@ layout: default
 </section>
 
 <section id="about_sec" >
-<h2>HELLO!</h2>
+<h2 class="wow bounce" data-wow-delay="1s">HELLO!</h2>
 
 <div class="about_div1">
 <p>
@@ -423,17 +423,6 @@ $('#filters li').click(function(){
 
 
 
-<script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-1656750-34', 'jsbin.com');
-ga('require', 'linkid', 'linkid.js');
-ga('require', 'displayfeatures');
-ga('send', 'pageview');
-
-</script>
 
 <script>
 $('a').click(function(){
@@ -442,6 +431,19 @@ $('a').click(function(){
     }, 2000);
     return false;
 });
+</script>
+
+<!-- nav scroll bg effect -->
+<script>
+$(window).scroll(function() {
+    if($(document).scrollTop() > 200){
+        $("#main_nav").addClass("main_nav");
+    }
+    else {
+        $("#main_nav").removeClass("main_nav");
+    }
+});
+
 </script>
 
 

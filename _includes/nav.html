@@ -1,4 +1,4 @@
-<nav id="main_nav" >
+<nav id="main_nav">
     <ul>
     <li><a  class="underline" href="#margin-top">HOME</a></li><!-- {{site.baseurl}}/ -->
     <li><a  class="underline" href="#portfolio_sec">WORK</a></li>
@@ -6,3 +6,18 @@
     <li><a  class="underline" href="mailto:jacqueline.l.morales@gmail.com?Subject=Hello%20" target="_top">CONTACT</a></li>
     </ul>
 </nav>
+
+
+<!-- nav scroll bg effect -->
+<script>
+
+$(window).scroll(function() {
+    if($(document).scrolltop() > 50){
+        $("#main_nav").addClass("main_nav");
+    }
+    else {
+        $("#main_nav").removeClass("main_nav");
+    }
+});
+
+</script>

@@ -40,9 +40,11 @@ Viewers can download
 body {
 	width:100%;
 	margin:0 auto;
-    font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif;
+    font-family: 'Work Sans', sans-serif;
 	font-weight:400;
 	letter-spacing:2px;
+    font-size:19px;
+    line-height:1.6em;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	color:#fff;
@@ -84,12 +86,32 @@ section {
 	margin:0 auto;
    text-align:center;
 	position:fixed;
-	background: url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+  /*background: url(http://s1.postimg.org/3t29dy5mj/image.jpg);
 	/*border-top:3px solid;
    -webkit-border-image: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
    -o-borderimage: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
     border-image: url(http://s23.postimg.org/c4d1fknij/header.png) 2 0 0 0 round; */
     z-index: 5000;
+  
+}
+
+.main_nav {
+background-color: rgba(78,57,154,1);
+background-color: -moz-linear-gradient(left, rgba(78,57,154,1) 0%, rgba(78,80,188,1) 100%);
+background-color: -webkit-gradient(left top, right top, color-stop(0%, rgba(78,57,154,1)), color-stop(100%, rgba(78,80,188,1)));
+background-color: -webkit-linear-gradient(left, rgba(78,57,154,1) 0%, rgba(78,80,188,1) 100%);
+background-color: -o-linear-gradient(left, rgba(78,57,154,1) 0%, rgba(78,80,188,1) 100%);
+background-color: -ms-linear-gradient(left, rgba(78,57,154,1) 0%, rgba(78,80,188,1) 100%);
+background-color: linear-gradient(to right, rgba(78,57,154,1) 0%, rgba(78,80,188,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4e399a', endColorstr='#4e50bc', GradientType=1 );
+transition: background-color 1000ms linear !important;
+-webkit-transition: background-color 1000ms linear !important;
+-moz-transition: background-color 1000ms linear !important;
+-o-transition: background-color 1000ms linear !important;
+-ms-transition: background-color 1000ms linear !important;
+    
+
+
 }
 
 #main_nav ul { 
@@ -105,7 +127,7 @@ section {
 	display:inline-block;
 	float:left;
 	margin:0 5px;
-	font-weight:100;
+	font-weight:400;
 	letter-spacing:1px;
 }
 
@@ -135,7 +157,7 @@ nav ul li a {
   bottom: 7px;
   width: 0;
   height: 2px;
-  background: #1692d0;
+  background: #00DFFF;
   content: "";
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -144,11 +166,11 @@ nav ul li a {
 }
 
 .underline:hover {
-  color: #1692d0;
+  color: #00DFFF;
 }
 
 .underline:focus{
-  color: #1692d0;
+  color: #00DFFF;
 }
 
 .underline:hover:after {
@@ -156,13 +178,13 @@ nav ul li a {
 }
 
 
-#margin-top {
+/*#margin-top {
 	height:120px;
 	width:85%;
 	margin:0 auto;
 	padding:0;
 	clear:both;
-}
+}*/
 
 
 
@@ -173,12 +195,12 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-   background:url("/images/header_img.jpg")no-repeat;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-position:top center;
+   background:url("/images/header-bg.jpg")no-repeat;
+   -webkit-background-size: cover !important;
+   -moz-background-size: cover !important;
+   -o-background-size: cover !important;
+   background-size: cover!important ;
+   background-position:top center ;
    overflow-x: hidden;
    text-align:center;
    z-index:-1000;
@@ -187,7 +209,7 @@ nav ul li a {
 
 #header #logo {
 	position:relative;
-	top:17%;
+	top:40%;
 	display:block;
 
 }
@@ -198,11 +220,9 @@ nav ul li a {
 }
 
 #header h1 {
-	font-family:"baskerville_oldstyle_ssibold", Georgia, "Times New Roman", Times, serif;
-    text-transform: uppercase;
-    font-size: 60px;
-    font-weight:bold;
-	font-style:italic;
+	font-family:'Lora', serif;
+    font-size: 80px;
+    font-weight:600;
     letter-spacing: 3px;
     line-height: 50px;
     margin-top: 7px;
@@ -210,12 +230,10 @@ nav ul li a {
 }
 
 #header h3 {
-	font-family: "UniversLT-LightOblique",'Open Sans', Arial, Helvetice Neue, sans-serif;
-	font-style:italic;
-	color:#1692d0;
+	font-family: 'Work Sans', sans-serif;
+	color:#00DFFF;
+    font-style:normal;
 	font-size:35px;
-	font-weight:200;
-	font-style:italic;
 	text-transform:uppercase;
 	letter-spacing:7px;
 	margin-left:-10px;
@@ -338,7 +356,9 @@ h2:after {
 /* ************** PORTFOLIO ********************/
 
 #portfolio_sec {
-	background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	/*background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);*/
+    background-color:#ffffff;
+    color:#000000;
 	padding-top:150px;
 	width:100%;
 	margin: 0 auto;
@@ -382,13 +402,14 @@ h2:after {
 	display:inline-block;
 	padding:15px 10px;		
 	text-decoration:none;
-	color:#ffffff;
+	color:#000000;
 	cursor: pointer;
 }
 
 
 #filters li:hover {
-     color:#1692d0;
+     /*color:#00DFFF;*/
+    
 }
 	
 #portfoliolist {
@@ -420,9 +441,17 @@ h2:after {
 }
 
 .project-overlay {
-    background : rgba(22,146,208,.80);
-    border : none/*2px solid #1692d0*/;
-    visibility: hidden;
+    /*background : rgba(22,146,208,.80);*/
+    border : none/*2px solid #00DFFF*/;
+    background: rgba(77,35,121,.9);
+background: -moz-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,35,121,.9)), color-stop(100%, rgba(78,82,192,.9)));
+background: -webkit-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -o-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -ms-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', endColorstr='#4e52c0', GradientType=1 );
+   visibility: hidden;
     position: absolute;
     text-align:center;
     padding:20px;
@@ -482,7 +511,15 @@ h2:after {
 
 #about_sec {
 	width:100%;
-	background-color:#1692d0;
+	
+background: rgba(77,35,121,1);
+background: -moz-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,35,121,1)), color-stop(100%, rgba(78,82,192,1)));
+background: -webkit-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
+background: -o-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
+background: linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', endColorstr='#4e52c0', GradientType=1 );
 	/*background:url(http://s29.postimg.org/rrxpex9qv/mt_shastabg2.jpg) no-repeat;*/
 	/*background:url(https://dl.dropboxusercontent.com/u/95636795/about_bg.jpg);*/
 	/*background-size: cover;
@@ -568,12 +605,14 @@ h2:after {
 
 footer {
 	width:100%;
-	background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	/*background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);*/
+    background-color:#ffffff;
+    color:#000000;
 	margin:0 auto;
 	text-align:center;
 	padding-top:30px;
 	padding-bottom:30px;
-	font-size:12px;
+	font-size:14px;
 }
 
 footer p {
@@ -586,6 +625,11 @@ footer p {
 footer a {
 	padding-top:15px;
 	padding-bottom:15px;
+    color:#000000;
+}
+
+footer a.underline {
+    color:#000000 !important;
 }
 
 
@@ -747,8 +791,8 @@ footer img {
 }
   
 #menu-button::before:hover {
-	border-top: 2px solid #1692d0;
-    border-bottom: 2px solid #1692d0;
+	border-top: 2px solid #00DFFF;
+    border-bottom: 2px solid #00DFFF;
 }
 	  
 */
@@ -820,7 +864,7 @@ footer img  {
 }
 
 #contact a {
-	color: #1692d0;
+	color: #00DFFF;
 	font-weight:bold;
 	width:100%;
 	text-align:center;
@@ -849,7 +893,7 @@ footer a {
 
 /************** BASKERVILLE OLDSTYLE  *****************/
 
-
+/*
 @font-face {
     font-family:"baskerville_oldstyle_ssibold";
     src: url("https://dl.dropboxusercontent.com/u/95636795/font/baskerville_oldstyle_ssi_bold-webfont.eot");
@@ -875,15 +919,5 @@ footer a {
     font-weight: normal;
     font-style: italic;
 
-}
-
-/*@font-face {
-  font-family: "Baskerville OldStyle SSi";
-  src: url("http://typefront.com/fonts/825593601.eot?");
-  src: local("☺"),
-       url("http://typefront.com/fonts/825593601.woff") format("woff"),
-       url("http://typefront.com/fonts/825593601.ttf") format("truetype"),
-       url("http://typefront.com/fonts/825593601.otf") format("opentype"),
-       url("http://typefront.com/fonts/825593601.svg") format("svg");
 }
 */
