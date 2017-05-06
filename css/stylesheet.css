@@ -343,6 +343,12 @@ h2:after {
     vertical-align: middle;
     width: 40%;
 }
+
+h2.portfolio:before,
+h2.portfolio:after {
+    background-color: #000;
+   
+}
 h2:before {
     right: 0.9em;
     margin-left: -50%;
