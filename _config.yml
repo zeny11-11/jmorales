@@ -1,3 +1,3 @@
 markdown: redcarpet
-baseurl: /zeny11-11/jmorales
+baseurl: /jmorales
 exclude: ['README.md']
