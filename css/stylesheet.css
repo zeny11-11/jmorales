@@ -186,40 +186,31 @@ nav ul li a {
     background-color:red !important;
     font-size: 80px;
     font-weight:600;
-    letter-spacing: 3px;
-    line-height: 100%;
-    margin-top: 7px;
-	
-
+    letter-spacing:3px;
+    line-height: 2em;
 }
 
 #header h3 {
 	font-family: 'Work Sans', sans-serif;
 	color:#00DFFF;
-    font-style:normal;
+        font-style:normal;
 	font-size:35px;
 	text-transform:uppercase;
 	letter-spacing:7px;
-	margin-left:-10px;
-	margin-top:15px;
 }
 
 @media only screen and (max-width: 775px) {
 #header h1 {
     font-size: 48px;
     line-height: 58px;
-    margin-top:0;
    text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
 #header h3 {
 	font-size:27px;
-	margin-top:10px;
 	font-weight:300;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
-
-
 }
 
 @media only screen and (max-width: 600px) {
@@ -234,18 +225,13 @@ nav ul li a {
 	margin-top:6px;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
-
-#header #logo img {
-	height:35px;
-
-}
 }
 
 @media only screen and (max-width: 500px) {
 #header h1 {
     font-size: 48px;
     line-height: 52px;
-	margin-top:5px;
+margin-top:5px;
 }
 
 #header h3 {
@@ -253,11 +239,6 @@ nav ul li a {
 	font-weight:500;
 	margin-top:0;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
-}
-
-#header #logo img {
-	height:38px;
-
 }
 }
 
@@ -277,13 +258,6 @@ nav ul li a {
 
 }
 
-
-
-
-
-
-.letterspacing { letter-spacing:1px;}
-.letterspacing4 { letter-spacing:5px;}
 
 /* **************HR with H2 in middle ********************/
 h2 {
