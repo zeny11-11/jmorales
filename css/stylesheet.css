@@ -152,7 +152,7 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-   background: url("../images/header-bg.jpg")no-repeat center center scroll;
+   background-image: url("../images/header-bg.jpg")no-repeat center center scroll;
    background: linear-gradient(
 	   rgba(60,37,117,1), 
 	   rgba(62,65,163,1));
