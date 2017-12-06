@@ -154,7 +154,7 @@ nav ul li a {
    height:100vh;
 	   background: linear-gradient(
 	   rgba(60,37,117,1), 
-	   rgba(62,65,163,1));
+	   rgba(62,65,163,1))!important;
   background:url("../images/header-bg.jpg")no-repeat center;
  -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
