@@ -213,8 +213,8 @@ nav ul li a {
 
 #header h3 {
 	font-size:22px;
-	margin-top:3px;
-	font-weight:300;
+	margin-top:25px;
+	font-weight:400;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
@@ -232,7 +232,7 @@ nav ul li a {
 
 #header h3 {
 	font-size:20px;
-	font-weight:500;
+	font-weight:400;
 	margin-top:6px;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
