@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora:700i|Work+Sans");
+@charset "UTF-8";
 
 
 * {
@@ -12,11 +12,11 @@
 body {
 	width:100%;
 	margin:0 auto;
-        font-family: "Work Sans", sans-serif !important;
+    font-family: 'Work Sans', sans-serif;
 	font-weight:400;
 	letter-spacing:2px;
-        font-size:19px;
-        line-height:1.6em;
+    font-size:19px;
+    line-height:1.6em;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	color:#fff;
@@ -56,9 +56,14 @@ section {
 	height:80px;
 	padding-top:40px;
 	margin:0 auto;
-        text-align:center;
+   text-align:center;
 	position:fixed;
-        z-index: 5000;
+  /*background: url(http://s1.postimg.org/3t29dy5mj/image.jpg);
+	/*border-top:3px solid;
+   -webkit-border-image: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
+   -o-borderimage: url(http://s23.postimg.org/c4d1fknij/header.png)  2 0 0 0 round; 
+    border-image: url(http://s23.postimg.org/c4d1fknij/header.png) 2 0 0 0 round; */
+    z-index: 5000;
   
 }
 
@@ -145,6 +150,16 @@ nav ul li a {
 }
 
 
+/*#margin-top {
+	height:120px;
+	width:85%;
+	margin:0 auto;
+	padding:0;
+	clear:both;
+}*/
+
+
+
 
 /* ************** HEADER ********************/
 	
@@ -152,8 +167,8 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-  background:url("../images/header-bg.jpg")no-repeat center;
- -webkit-background-size: cover !important;
+   background:url("../images/header-bg.jpg")no-repeat;
+   -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
    -o-background-size: cover !important;
    background-size: cover!important ;
@@ -161,43 +176,6 @@ nav ul li a {
    overflow-x: hidden;
    text-align:center;
    z-index:-1000;
-    animation: fadein 2s;
- -moz-animation: fadein 2s; /* Firefox */
-   -webkit-animation: fadein 2s; /* Safari and Chrome */
-   -o-animation: fadein 2s; /* Opera */ 
-}
-@keyframes fadein {
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity: 1;
-    }
-
 }
 
 
@@ -205,39 +183,53 @@ nav ul li a {
 	position:relative;
 	top:40%;
 	display:block;
+
+}
+
+#header #logo img {
+	height:50px;
+
 }
 
 #header h1 {
-    font-family:"Lora", Georgia, serif;
+	font-family:'Lora', serif;
     font-size: 80px;
-    font-weight:700;
-   font-style: italic;
-    letter-spacing:3px;
-    line-height: 1.2;
+    font-weight:600;
+    letter-spacing: 3px;
+    line-height: 50px;
+    margin-top: 7px;
+
 }
 
 #header h3 {
-	font-family: "Work Sans", sans-serif;
+	font-family: 'Work Sans', sans-serif;
 	color:#00DFFF;
-        font-style:normal;
+    font-style:normal;
 	font-size:35px;
-	font-weight:600;
 	text-transform:uppercase;
 	letter-spacing:7px;
-	margin-top:20px;
+	margin-left:-10px;
+	margin-top:15px;
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 750px) {
 #header h1 {
     font-size: 48px;
     line-height: 58px;
-   text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+    margin-top:0;
+	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
 #header h3 {
 	font-size:27px;
+	margin-top:3px;
 	font-weight:300;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:42px;
+
 }
 }
 
@@ -253,13 +245,18 @@ nav ul li a {
 	margin-top:6px;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
+
+#header #logo img {
+	height:35px;
+
+}
 }
 
 @media only screen and (max-width: 500px) {
 #header h1 {
     font-size: 48px;
     line-height: 52px;
-margin-top:5px;
+	margin-top:5px;
 }
 
 #header h3 {
@@ -267,6 +264,11 @@ margin-top:5px;
 	font-weight:500;
 	margin-top:0;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
+}
+
+#header #logo img {
+	height:38px;
+
 }
 }
 
@@ -283,9 +285,19 @@ margin-top:5px;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
+#header #logo img {
+	height:30px;
 
 }
+}
 
+
+
+
+
+
+.letterspacing { letter-spacing:1px;}
+.letterspacing4 { letter-spacing:5px;}
 
 /* **************HR with H2 in middle ********************/
 h2 {
@@ -407,8 +419,16 @@ h2:after {
 }
 
 .project-overlay {
- 
-    background: rgba(53, 0, 129, 1); 
+    /*background : rgba(22,146,208,.80);*/
+    border : none/*2px solid #00DFFF*/;
+    background: rgba(77,35,121,.9);
+background: -moz-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,35,121,.9)), color-stop(100%, rgba(78,82,192,.9)));
+background: -webkit-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -o-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: -ms-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+background: linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', endColorstr='#4e52c0', GradientType=1 );
    visibility: hidden;
     position: absolute;
     text-align:center;
@@ -669,7 +689,7 @@ footer img {
 #portfoliolist .portfolio:nth-child(odd) { margin-right:7px; margin-left:0;}
 }
 
-@media only screen and (max-width: 775px) {
+@media only screen and (max-width: 700px) {
 	
 /************** MOBILE NAV  *****************/	
 
@@ -758,7 +778,7 @@ footer img {
 	
 #header #logo {
 	position:relative;
-	top:40%;
+	top:16%;
 
 }
 
