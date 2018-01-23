@@ -478,7 +478,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 
 #about_sec {
 	width:100%;
-	background-color:#340080;
+	/*background-color:#340080;*/
+	background-color: #1E1E20
       overflow-x: hidden;
        clear:both;
 	margin:0 auto;
