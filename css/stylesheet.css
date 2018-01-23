@@ -319,7 +319,6 @@ h2:after {
 /* ************** PORTFOLIO ********************/
 
 #portfolio_sec {
-	/*background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);*/
     background-color:#ffffff;
     color:#000000;
 	padding-top:150px;
@@ -406,7 +405,7 @@ h2:after {
 .project-overlay {
     /*background : rgba(22,146,208,.80);*/
     border : none/*2px solid #00DFFF*/;
-   background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7))
+   background-color:blue;
    visibility: hidden;
     position: absolute;
     text-align:center;
@@ -467,25 +466,9 @@ h2:after {
 
 #about_sec {
 	width:100%;
-	
-background: rgba(77,35,121,1);
-background: -moz-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,35,121,1)), color-stop(100%, rgba(78,82,192,1)));
-background: -webkit-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
-background: -o-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
-background: -ms-linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
-background: linear-gradient(45deg, rgba(77,35,121,1) 0%, rgba(78,82,192,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', endColorstr='#4e52c0', GradientType=1 );
-	/*background:url(http://s29.postimg.org/rrxpex9qv/mt_shastabg2.jpg) no-repeat;*/
-	/*background:url(https://dl.dropboxusercontent.com/u/95636795/about_bg.jpg);*/
-	/*background-size: cover;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-position:top center;*/
-/*box-sizing: content-box;*/
-    overflow-x: hidden;
-    clear:both;
+	background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7));
+      overflow-x: hidden;
+       clear:both;
 	margin:0 auto;
 	text-align:center;
 	padding-top:150px;
