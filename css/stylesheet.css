@@ -205,14 +205,14 @@ nav ul li a {
 
 @media only screen and (max-width: 750px) {
 #header h1 {
-    font-size: 48px;
+    font-size: 70px;
     line-height: 58px;
     margin-top:0;
     text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
 #header h3 {
-	font-size:27px;
+	font-size:22px;
 	margin-top:3px;
 	font-weight:300;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
