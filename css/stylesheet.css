@@ -195,12 +195,11 @@ nav ul li a {
 	font-family: "Montserrat", sans-serif;
 	color:#00DFFF;
         font-style:normal;
-	font-size:30px;
+	font-size:32px;
 	font-weight:400;
 	text-transform:uppercase;
 	letter-spacing:7px;
-	margin-left:1px;
-	margin-top:40px;
+	margin-top:36px;
 }
 
 @media only screen and (max-width: 750px) {
