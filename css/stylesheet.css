@@ -168,7 +168,7 @@ nav ul li a {
    height:600px;
    height:100vh;
    background-image:url("../images/header-bg.jpg")no-repeat;
-   background: linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7))
+   background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7))
 	
    -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
@@ -423,14 +423,7 @@ h2:after {
 .project-overlay {
     /*background : rgba(22,146,208,.80);*/
     border : none/*2px solid #00DFFF*/;
-    background: rgba(77,35,121,.9);
-background: -moz-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
-background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(77,35,121,.9)), color-stop(100%, rgba(78,82,192,.9)));
-background: -webkit-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
-background: -o-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
-background: -ms-linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
-background: linear-gradient(45deg, rgba(77,35,121,.9) 0%, rgba(78,82,192,.9) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', endColorstr='#4e52c0', GradientType=1 );
+   background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7))
    visibility: hidden;
     position: absolute;
     text-align:center;
