@@ -182,10 +182,11 @@ nav ul li a {
 
 #header h1 {
     font-family:"Quattrocento", serif;
-    font-size: 80px;
+    font-size: 90px;
     font-weight:600;
     letter-spacing: 3px;
     line-height: 50px;
+    text-transform: uppercase;
     margin-top: 7px;
 
 }
