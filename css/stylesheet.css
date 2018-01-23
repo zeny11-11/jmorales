@@ -225,14 +225,14 @@ nav ul li a {
 
 @media only screen and (max-width: 600px) {
 #header h1 {
-    font-size: 60px;
+    font-size: 65px;
     line-height: 44px;
 }
 
 #header h3 {
 	font-size:20px;
 	font-weight:400;
-	margin-top:6px;
+	margin-top:15px;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
@@ -246,13 +246,13 @@ nav ul li a {
 #header h1 {
     font-size: 55px;
     line-height: 52px;
-	margin-top:5px;
+	margin-top:15px;
 }
 
 #header h3 {
 	font-size:20px;
 	font-weight:400;
-	margin-top:0;
+	margin-top:10;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
