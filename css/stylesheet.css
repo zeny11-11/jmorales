@@ -169,6 +169,7 @@ nav ul li a {
    height:100vh;
    background-image:url("../images/header-bg.jpg")no-repeat;
    background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7))
+   
 	
    -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
