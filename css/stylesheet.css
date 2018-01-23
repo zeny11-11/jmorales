@@ -152,7 +152,6 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-	   background-color: #4330a1 !important;
   background:linear-gradient(rgba(53, 0, 129, .7), rgba(53, 0, 129, .7),
 	  url("../images/header-bg.jpg")no-repeat center;
  -webkit-background-size: cover !important;
