@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 
 * {
 	padding: 0;
@@ -10,11 +12,11 @@
 body {
 	width:100%;
 	margin:0 auto;
-       font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 	font-weight:400;
 	letter-spacing:2px;
-       font-size:19px;
-       line-height:1.6em;
+    font-size:19px;
+    line-height:1.6em;
 	-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
 	-webkit-text-size-adjust: 100%;
 	color:#fff;
@@ -79,6 +81,9 @@ transition: background-color 1000ms linear !important;
 -moz-transition: background-color 1000ms linear !important;
 -o-transition: background-color 1000ms linear !important;
 -ms-transition: background-color 1000ms linear !important;
+    
+
+
 }
 
 #main_nav ul { 
@@ -859,8 +864,4 @@ footer a {
 	padding-top:5px;
 }
 
-
-
-
-
-
+}
