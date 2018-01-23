@@ -62,7 +62,7 @@ section {
 }
 
 .main_nav {
-     background: rgba(53,1,129,1);
+     background-color: rgba(52,0,128,1);
     transition: background-color 1000ms linear !important;
     -webkit-transition: background-color 1000ms linear !important;
     -moz-transition: background-color 1000ms linear !important;
@@ -152,7 +152,7 @@ nav ul li a {
    height:600px;
    height:100vh;
    background: rgba(53, 1, 129, 1);
-   background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7)), url("../images/header-bg.jpg")no-repeat;
+   background:linear-gradient(to right, rgba(53, 1, 129, .5), rgba(53, 1, 129, .5)), url("../images/header-bg.jpg")no-repeat;
    -webkit-background-size: cover !important;
    -moz-background-size: cover !important;
    -o-background-size: cover !important;
@@ -473,7 +473,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d2379', end
 
 #about_sec {
 	width:100%;
-	background:linear-gradient(to right, rgba(53, 1, 129, .7), rgba(53, 1, 129, .7));
+	background-color:rgba(52, 0, 128, 1);
       overflow-x: hidden;
        clear:both;
 	margin:0 auto;
