@@ -529,31 +529,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 .me {
     overflow: hidden;
     text-align: center;
-	border:#fff thin solid;
-
-	width: 400px;
-	margin-top:25px;
+    border:#fff thin solid;
+    width: 400px;
+    max-width:80%;
+	
+	
 }
-
-.me:before, .me:after {
-    background-color: #fff;
-    content: '';
-    display: inline-block;
-    height: 1px;
-    position: relative;
-    vertical-align: middle;
-    width: 40%;
-}
-.me:before {
-    right: 0.9em;
-    margin-left: -50%;
-}
-.me:after {
-    left: 0.9em;
-    margin-right: -50%;
-}
-
-
 
 
 footer {
