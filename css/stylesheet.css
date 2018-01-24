@@ -507,21 +507,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 
 .about_div1 h3 {
 	
-	-webkit-margin-before: 1em;
-        -webkit-margin-after: 1em;
-        -webkit-margin-start: auto;
-        -webkit-margin-end: auto;
-	 margin-left:auto;
-	text-align:left;
+	 margin:5px auto;
+	 text-align:left;
 }
 
 .about_div1 p {
-	-webkit-margin-before: 1em;
+	 line-height:1.7em;
+	/* -webkit-margin-before: 1em;
         -webkit-margin-after: 1em;
         -webkit-margin-start: auto;
         -webkit-margin-end: auto;
-	 margin-left:auto;
-	 line-height:1.7em;
+	 margin-left:auto;*/
+	 margin:5px auto;
 	 text-align:left;
 	-moz-hyphens: none;
         -ms-hyphens: none;
