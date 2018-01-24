@@ -530,8 +530,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     overflow: hidden;
     text-align: center;
     border:#fff thin solid;
-    width: 400px;
-    max-width:80%;
+    width: 100%;
+    height: auto;
 	
 	
 }
