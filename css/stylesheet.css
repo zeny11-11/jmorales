@@ -7,6 +7,8 @@
 	margin-right: 0;
 	margin-bottom: 0;
 	margin-left: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box; 
 }
 
 @import url("https://fonts.googleapis.com/css?family=Quattrocento");
@@ -496,7 +498,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 padding-top:50px;
 	 text-align:center;
 	border:red solid thick;
-	 max-width:60%;
+	 flex: 1;
 	
 }
 
@@ -530,8 +532,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
      display: flex;
      align-items: center;
      justify-content: center;
-     border:thick solid white;
+     border:thick solid orange;
      padding:50px;
+    flex: 1;
 	
 }
 
