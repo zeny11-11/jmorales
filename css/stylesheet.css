@@ -31,7 +31,7 @@ body {
 
 a {
 	text-decoration:none;
-    color:#fff;
+        color:#fff;
 	font-weight:400;
 	letter-spacing:2px;
 }	
@@ -49,7 +49,6 @@ section {
 	margin: 0 auto;
 	padding:0;
 }
-
 
 
 
@@ -480,7 +479,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 #about_sec {
 	width:100%;
 	background-color:#340080;
-      overflow-x: hidden;
+       overflow-x: hidden;
        clear:both;
 	margin:0 auto;
 	text-align:center;
