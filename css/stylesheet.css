@@ -485,7 +485,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
         clear:both;
 	margin:0 auto;
 	text-align:center;
-	padding:150px;
+	padding-top:150px;
+	padding-bottom:150px;
         display: flex;
        align-items: center;
        justify-content: center;
