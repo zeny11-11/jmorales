@@ -523,6 +523,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
    display: flex;
   align-items: center;
   justify-content: center;
+	border:thick solid white;
 	
 }
 
