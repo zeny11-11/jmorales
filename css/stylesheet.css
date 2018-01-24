@@ -491,10 +491,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 
 
 .about_div1 { 
-     width:100%;
+     width:60%;
 	 margin:0 auto;
 	 padding-top:80px;
-	 display: block;
+	 display: inline-block;
 	 text-align:center;
 }
 
@@ -514,9 +514,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 }
 
 .about_div2 { 
-     width:100%;
+     width:40%;
 	 margin:0 auto;
-	 display: block;
+	 display: inline-block;
 	 text-align:center;
 	 padding-bottom:80px;
 }
@@ -525,12 +525,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     overflow: hidden;
     text-align: center;
 	border:#fff thin solid;
-	border-radius:50%;
-	-moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -webkit-border-radius: 50%;
-	width: 200px;
-	height: 200px;
+
+	width: 400px;
 	margin-top:25px;
 }
 
