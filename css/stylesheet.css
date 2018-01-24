@@ -497,11 +497,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 padding-top:80px;
 	 text-align:center;
 	border:red solid thick;
+	 max-width:60%;
 	
 }
 
 .about_div1 h3 {
 	text-align:left;
+	-webkit-margin-before: 1em;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: auto;
+        -webkit-margin-end: auto;
+	 margin-left:auto;
 }
 
 .about_div1 p {
