@@ -496,7 +496,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 margin:0 auto;
 	 padding-top:80px;
 	 text-align:center;
+	border:red solid thick;
 	
+}
+
+.about_div1 h3 {
+	text-align:left;
 }
 
 .about_div1 p {
