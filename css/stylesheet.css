@@ -497,6 +497,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 display: inline-block;
 	 text-align:center;
 	float:left;
+	background-color:#1a1c1c;
 }
 
 .about_div1 p {
