@@ -531,6 +531,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     text-align: center;
     border:#fff thin solid;
     width: 100%;
+    max-width:350px;
     height: auto;
     border:20px solid #1a1c1c;
 	
