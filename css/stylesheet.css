@@ -479,51 +479,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 #about_sec {
 	width:100%;
 	background-color:#340080;
-       overflow-x: hidden;
-       clear:both;
+        overflow-x: hidden;
+        clear:both;
 	margin:0 auto;
 	text-align:center;
 	padding-top:150px;
-	padding-bottom:80px
+	padding-bottom:80px;
+        display: flex;
+       align-items: center;
+       justify-content: center;
 }
 
 
 
 .about_div1 { 
-         width:60%;
 	 margin:0 auto;
 	 padding-top:80px;
 	 display: inline-block;
 	 text-align:center;
-	float:left;
 	
 }
 
 .about_div1 p {
 	-webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
-    -webkit-margin-start: auto;
-    -webkit-margin-end: auto;
-	margin-left:auto;
-	line-height:1.7em;
-	text-align:left;
+        -webkit-margin-after: 1em;
+        -webkit-margin-start: auto;
+        -webkit-margin-end: auto;
+	 margin-left:auto;
+	 line-height:1.7em;
+	 text-align:left;
 	-moz-hyphens: none;
-    -ms-hyphens: none;
-    -webkit-hyphens: none;
-    hyphens: none;
-	width:80%
+        -ms-hyphens: none;
+        -webkit-hyphens: none;
+         hyphens: none;
+	 width:80%
 }
 
 .about_div2 { 
-     width:40%;
      margin:0 auto;
-    display: inline-block;
-    text-align:center;
-    float:right;
-   display: flex;
-  align-items: center;
-  justify-content: center;
-	border:thick solid white;
+     text-align:center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border:thick solid white;
 	
 }
 
@@ -534,7 +532,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     width: 100%;
     max-width:350px;
     height: auto;
-    border:20px solid #1a1c1c;
+    border:40px solid #1a1c1c;
 	
 	
 }
