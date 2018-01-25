@@ -505,9 +505,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 
 .about_div1 { 
 	 margin:0 auto;
-	 padding:50px;
+	 padding:10px;
 	 text-align:center;
-	 flex: 1;
+	 flex: 2;
 	
 }
 
@@ -533,7 +533,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
      display: flex;
      align-items: center;
      justify-content: center;
-     padding:50px;
+     padding:10px;
      flex: 1;
 	
 }
