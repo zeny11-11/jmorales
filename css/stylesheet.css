@@ -509,7 +509,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 padding:50px;
 	 text-align:center;
 	border:red solid thick;
-	 flex: 1;
+	 flex: 2;
 	
 }
 
@@ -549,7 +549,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     width: 100%;
     max-width:350px;
     height: auto;
-    border:40px solid #1a1c1c;
+    border:40px solid 340080;
+    outline:2px solid #000;
 	
 	
 }
@@ -749,12 +750,6 @@ footer img {
 	  
 */
 /************** END MOBILE NAV  *****************/		
-	
-#header #logo {
-	position:relative;
-	top:16%;
-
-}
 
 #portfolio_sec {
 	padding-top:80px;
@@ -766,22 +761,10 @@ footer img {
 
 #about_sec {
     padding-top:80px;
-	padding-bottom:50px;
+    padding-bottom:50px;
 }
 
-.about_div1 { 
-     padding-top:40px;
-	 width:100%;
-}
-
-.about_div1 p { 
-   margin-right:auto;
-   margin-left: auto;
-   width:80%;
-	
-}
-
-footer span {
+	footer span {
 	display:none;
 }
 
