@@ -511,12 +511,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	
 }
 
-.about_div1 h3 {
-	
-	 margin:5px auto;
-	 text-align:left;
-}
-
 .about_div1 p {
 	 line-height:1.7em;
 	/* -webkit-margin-before: 1em;
@@ -524,7 +518,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
         -webkit-margin-start: auto;
         -webkit-margin-end: auto;
 	 margin-left:auto;*/
-	 margin:5px auto;
+	 margin:20px auto;
 	 text-align:left;
 	-moz-hyphens: none;
         -ms-hyphens: none;
