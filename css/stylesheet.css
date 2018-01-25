@@ -508,7 +508,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
 	 margin:0 auto;
 	 padding:50px;
 	 text-align:center;
-	border:red solid thick;
 	 flex: 2;
 	
 }
@@ -535,9 +534,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
      display: flex;
      align-items: center;
      justify-content: center;
-     border:thick solid orange;
      padding:50px;
-    flex: 1;
+     flex: 1;
 	
 }
 
@@ -549,8 +547,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#340080', end
     width: 100%;
     max-width:350px;
     height: auto;
-    border:40px solid 340080;
-    outline:2px solid #000;
+    border:40px solid #340080;
+    outline:4px solid black;
 	
 	
 }
