@@ -36,7 +36,10 @@ a {
         color:#fff;
 	font-weight:400;
 	letter-spacing:2px;
-}	
+}
+
+a[name] {
+	padding-top:100px }
 
 .clearfix {
 	clear:both;
