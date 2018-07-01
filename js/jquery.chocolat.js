@@ -710,7 +710,7 @@
         separator2        : '/',
         setIndex          : 0,
         firstImage        : 0,
-        lastImage         : false,
+        lastImage         : 16,
         currentImage      : false,
         initialized       : false,
         timer             : false,
