@@ -22,7 +22,7 @@
     display: none;
     left:0;
     top:0;
-    z-index:16;
+    z-index:7000;
     color: #fff;
 }
 .chocolat-zoomable .chocolat-img{
@@ -64,7 +64,7 @@
     margin-top: -50px;
     cursor:pointer;
     background:url(../images/left.png) 50% 50% no-repeat;
-    z-index: 17;
+    z-index: 7001;
     display: none;
 
 }
@@ -77,7 +77,7 @@
     margin-top: -50px;
     cursor:pointer;
     background:url(../images/right.png)  50% 50% no-repeat;
-    z-index: 17;
+    z-index: 7001;
     display: none;
 }
 .chocolat-wrapper .chocolat-right.active{
@@ -94,7 +94,7 @@
     line-height:50px;
     height:50px;
     overflow: hidden;
-    z-index: 17;
+    z-index: 7001;
     margin-bottom: 10px;
 }
 .chocolat-wrapper .chocolat-close{
@@ -104,6 +104,7 @@
     position: absolute;
     top: 0;
     right: 0;
+    z-index: 7001;
     background:url(../images/close.png) 50% 50% no-repeat;
 }
 .chocolat-wrapper .chocolat-bottom{
