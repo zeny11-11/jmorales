@@ -716,17 +716,18 @@
         timer             : false,
         timerDebounce     : false,
         images            : [
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Agreedly_MockUp.jpg', title: 'Winning Design for Agreedly.com'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Forma.jpg', title: 'Email Design for Forma'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Agreedly_MockUp.jpg', title: 'Winning Design for agreedly.com'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Forma.jpg', title: 'Email Design for Forma Gym'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.png', title: 'Web Design for pharma-strategies.eu'}, 
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/SwiftFinder.png', title: 'Web Design for swiftfinder.net'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Lancer.jpg', title: 'Email Design for Lancer Skin Care'},
+                            
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Accelerance.jpg', title: 'Web Design for Accelerance'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Lancer.jpg', title: 'Email Design for Lancer'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/SubForce-Mockup.jpg', title: 'Web Design for subforce-solutions.com'},
-            
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/HomeforGrandma.jpg', title: 'Print Design for Home for Grandma'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PrimeCity.png', title: 'Web Design for primecitydevelopments.co.uk'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/L5Cloud.png', title: 'Web Design for L5cloud.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/HM_branding.jpg', title: 'Design and Branding for Hilda Mora'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Reklame.jpg', title: 'Web Design for Reklame.net'},
+                            
             
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/AirPurifiers.jpg', title: 'Email Design and code for Air Purifiers America'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/CN-Expo.jpg', title: 'Email Design and code for Casting Networks'},
