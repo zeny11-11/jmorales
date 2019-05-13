@@ -718,7 +718,7 @@
         images            : [
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/shiftcare.jpg', title: 'Web Design for Shiftcare.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Forma.jpg', title: 'Email Design for Forma Technologies'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/falcon.jpg', title: 'Brochure Design for Falcon Construction'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/SwiftFinder.jpg', title: 'Web Design for swiftfinder.net'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Lancer.jpg', title: 'Email Design for Lancer Skin Care'},
                             
@@ -730,13 +730,11 @@
                             
             
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/AirPurifiers.jpg', title: 'Email Design and code for Air Purifiers America'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/CN-Expo.jpg', title: 'Email Design and code for Casting Networks'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/DowneySymphony2017.jpg', title: 'Brochure Design for The Downey Symphony'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/BroadStreet.jpg', title: 'Brochure Design for BroadStreet'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/iPage.jpg', title: 'Email Design for iPage'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/CN.jpg', title: 'Email design and code for Casting Networks'},
-            
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding-Coaster.jpg', title: 'Brochure Design for Coaster Company'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding.jpg', title: 'Brochure Design for Coaster Company'},
+
                             ],
         enableZoom        : true,
         imageSource       : "href",
