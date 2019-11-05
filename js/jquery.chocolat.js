@@ -722,7 +722,7 @@
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/SwiftFinder.jpg', title: 'Web Design for swiftfinder.net'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Lancer.jpg', title: 'Email Design for Lancer Skin Care'},
                             
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Accelerance.jpg', title: 'Web Design for Accelerance'},
+                        /*    {src:'http://www.jacqueline-morales.com/images/gallery-images/Accelerance.jpg', title: 'Web Design for Accelerance'}, */
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/HomeforGrandma.jpg', title: 'Print Design for Home for Grandma'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PrimeCity.png', title: 'Web Design for primecitydevelopments.co.uk'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/L5Cloud.png', title: 'Web Design for L5cloud.com'},
