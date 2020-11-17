@@ -721,7 +721,7 @@
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/shiftcare.jpg', title: 'Web Design for Shiftcare.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
                             
-                       
+                             {src:'http://www.jacqueline-morales.com/images/gallery-images/DS-Brochure.jpg', title: 'Brochure Design for The Downey Symphony'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/falcon.jpg', title: 'Brochure Design for Falcon Construction'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/SwiftFinder.jpg', title: 'Web Design for swiftfinder.net'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Lancer.jpg', title: 'Email Design for Lancer Skin Care'},
