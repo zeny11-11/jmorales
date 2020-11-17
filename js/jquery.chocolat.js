@@ -736,6 +736,7 @@
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/iPage.jpg', title: 'Email Design for iPage'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/CN.jpg', title: 'Email design and code for Casting Networks'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding-Coaster.jpg', title: 'Brochure Design for Coaster Company'},
+            ]
                               
     };
 
