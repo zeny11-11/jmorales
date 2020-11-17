@@ -729,6 +729,13 @@
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PrimeCity.png', title: 'Web Design for primecitydevelopments.co.uk'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/L5Cloud.png', title: 'Web Design for L5cloud.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/HM_branding.jpg', title: 'Design and Branding for Hilda Mora'},
+                            
+            
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/AirPurifiers.jpg', title: 'Email Design and code for Air Purifiers America'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/BroadStreet.jpg', title: 'Brochure Design for BroadStreet'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/iPage.jpg', title: 'Email Design for iPage'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/CN.jpg', title: 'Email design and code for Casting Networks'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding-Coaster.jpg', title: 'Brochure Design for Coaster Company'},
                               
     };
 
