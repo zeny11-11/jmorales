@@ -718,6 +718,8 @@
         images            : [
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/miraclesforkids.org.png', title: 'Web Development for miraclesforkids.org'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/apch.org.png', title: 'Web Development for apch.org'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/shiftcare.jpg', title: 'Web Design for Shiftcare.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/falcon.jpg', title: 'Brochure Design for Falcon Construction'},
@@ -736,8 +738,15 @@
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/iPage.jpg', title: 'Email Design for iPage'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/CN.jpg', title: 'Email design and code for Casting Networks'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding-Coaster.jpg', title: 'Brochure Design for Coaster Company'},
-            ]
-                              
+
+                            ],
+        enableZoom        : true,
+        imageSource       : "href",
+        afterInitialize   : function () {},
+        afterMarkup       : function () {},
+        afterImageLoad    : function () {},
+        zoomedPaddingX    : function (canvasWidth, imgWidth) { return 0; },
+        zoomedPaddingY    : function (canvasHeight, imgHeight) { return 0; },
     };
 
     $.fn.Chocolat = function (options) {
