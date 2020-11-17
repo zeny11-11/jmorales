@@ -718,8 +718,6 @@
         images            : [
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/miraclesforkids.org.png', title: 'Web Development for miraclesforkids.org'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/apch.org.png', title: 'Web Development for apch.org'},
-                            
-            
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/shiftcare.jpg', title: 'Web Design for Shiftcare.com'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/Drehm.jpg', title: 'Web Design for pharma-strategies.eu'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/falcon.jpg', title: 'Brochure Design for Falcon Construction'},
