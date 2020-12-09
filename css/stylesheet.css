@@ -189,14 +189,14 @@ nav ul li a {
 }
 
 #header h3 {
-	font-family: 'Playfair Display', serif;
-	color:#7bc9ad;
-        font-style:normal;
-	font-size:32px;
-	font-weight:400;
-	text-transform:uppercase;
-	letter-spacing:7px;
-	margin-top:36px;
+     font-family: 'Playfair Display', serif;
+    color: #7bc9ad;
+    font-style: normal;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    margin-top: 50px;
 }
 
 @media only screen and (max-width: 750px) {
