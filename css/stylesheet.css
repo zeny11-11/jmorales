@@ -68,7 +68,7 @@ section {
 }
 
 .main_nav {
-     background-color:#000;
+     background-color:#532ba8;
     transition: background-color 1000ms linear !important;
     -webkit-transition: background-color 1000ms linear !important;
     -moz-transition: background-color 1000ms linear !important;
@@ -157,13 +157,8 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-   background: rgba(0, 0, 0, 1);
-   background:linear-gradient(to right, rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)), url("../images/header-bg.jpg")no-repeat;
-   -webkit-background-size: cover !important;
-   -moz-background-size: cover !important;
-   -o-background-size: cover !important;
-   background-size: cover!important ;
-   background-position:center center ;
+   background: #532ba8;
+
    overflow-x: hidden;
    text-align:center;
    z-index:-1000;
@@ -327,7 +322,7 @@ h2:after {
 /* ************** PORTFOLIO ********************/
 
 #portfolio_sec {
-    background-color:#ffffff;
+    background-color:#7bc9ad;
     color:#000000;
 	padding-top:150px;
 	width:100%;
@@ -481,7 +476,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 
 #about_sec {
 	width:100%;
-	background-color:#000;
+	background-color:#532ba8;
         overflow-x: hidden;
         clear:both;
 	margin:0 auto;
