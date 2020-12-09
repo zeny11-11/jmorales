@@ -11,7 +11,7 @@
 	box-sizing: border-box; */
 }
 
-@import url("https://fonts.googleapis.com/css?family=Quattrocento");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
@@ -178,7 +178,7 @@ nav ul li a {
 }
 
 #header h1 {
-    font-family:"Quattrocento", serif;
+    font-family: 'Playfair Display', serif;
     font-size: 100px;
     font-weight:700;
     letter-spacing: 2px;
@@ -189,7 +189,7 @@ nav ul li a {
 }
 
 #header h3 {
-	font-family: "Montserrat", sans-serif;
+	font-family: 'Playfair Display', serif;
 	color:#7bc9ad;
         font-style:normal;
 	font-size:32px;
