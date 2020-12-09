@@ -558,8 +558,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
 footer {
 	width:100%;
 	/*background:url(http://s1.postimg.org/3t29dy5mj/image.jpg);*/
-    background-color:#ffffff;
-    color:#000000;
+    background-color:#7bc9ad;
+    color:#ffffff;
 	margin:0 auto;
 	text-align:center;
 	padding-top:30px;
@@ -577,11 +577,11 @@ footer p {
 footer a {
 	padding-top:15px;
 	padding-bottom:15px;
-    color:#000000;
+    color:#fffff;
 }
 
 footer a.underline {
-    color:#000000 !important;
+    color:#ffffff!important;
 }
 
 
