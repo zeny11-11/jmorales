@@ -181,14 +181,9 @@ nav ul li a {
 	margin: 0 auto;
 }
 
-#header #logo img {
-	height:50px;
-
-}
-
 #header h1 {
     font-family: 'Playfair Display', serif;
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight:600;
     letter-spacing: -1px;
     line-height: 50px;
@@ -202,7 +197,7 @@ nav ul li a {
     font-family: 'Playfair Display', serif;
     color: #7bc9ad;
     font-style: normal;
-    font-size: 72px;
+    font-size: 4.5rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -212,16 +207,11 @@ nav ul li a {
 
 @media only screen and (max-width: 750px) {
 #header h1 {
-    font-size: 70px;
-    line-height: 58px;
     margin-top:0;
     text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
 }
 
 #header h3 {
-	font-size:20px;
-	margin-top:25px;
-	font-weight:400;
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
   }
 
@@ -229,70 +219,23 @@ nav ul li a {
 
 @media only screen and (max-width: 600px) {
 #header h1 {
-    font-size: 65px;
-    line-height: 44px;
+  
 }
 
 #header h3 {
-	font-size:20px;
-	font-weight:400;
-	margin-top:15px;
+
 	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
-}
+   }
 
-#header #logo img {
-	height:35px;
-
-}
 }
 
 @media only screen and (max-width: 500px) {
-#header h1 {
-    font-size: 55px;
-    line-height: 52px;
-	margin-top:15px;
-}
 
-#header h3 {
-	font-size:20px;
-	font-weight:400;
-	margin-top:10;
-	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
-}
-
-#header #logo img {
-	height:38px;
-
-}
 }
 
 @media only screen and (max-width: 400px) {
-#header h1 {
-    font-size: 40px;
-   letter-spacing: 2px;
-    line-height: 44px;
-   margin-top:2px;
-}
-
-#header h3 {
-	font-size:18px;
-	font-weight:400;
-	text-shadow: 1px 1px 3px rgba(6, 79, 116, 0.1);
-}
-
-#header #logo img {
-	height:30px;
 
 }
-}
-
-
-
-
-
-
-.letterspacing { letter-spacing:1px;}
-.letterspacing4 { letter-spacing:5px;}
 
 /* **************HR with H2 in middle ********************/
 h2 {
