@@ -119,7 +119,7 @@ nav ul li a {
   bottom: 7px;
   width: 0;
   height: 2px;
-  background: #00DFFF;
+  background: #7bc9ad;
   content: "";
   -webkit-transition: all 0.3s;
   -moz-transition: all 0.3s;
@@ -128,11 +128,11 @@ nav ul li a {
 }
 
 .underline:hover {
-  color: #00DFFF;
+  color: #7bc9ad;
 }
 
 .underline:focus{
-  color: #00DFFF;
+  color: #7bc9ad;
 }
 
 .underline:hover:after {
@@ -190,7 +190,7 @@ nav ul li a {
 
 #header h3 {
 	font-family: "Montserrat", sans-serif;
-	color:#00DFFF;
+	color:#7bc9ad;
         font-style:normal;
 	font-size:32px;
 	font-weight:400;
@@ -295,7 +295,7 @@ h2 {
 }
 h2:before,
 h2:after {
-    background-color: #fff;
+    background-color: none;
     content: '';
     display: inline-block;
     height: 1px;
@@ -408,14 +408,15 @@ h2:after {
 .project-overlay {
     /*background : rgba(22,146,208,.80);*/
     border : none/*2px solid #00DFFF*/;
-   background: rgba(0,0,0,.9);
+	background: #7bc9ad;
+   /*background: rgba(0,0,0,.9);
 background: -moz-linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.9) 100%);
 background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(0,0,0,.9)), color-stop(100%, rgba(0,0,0,.9)));
 background: -webkit-linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.9) 100%);
 background: -o-linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.9) 100%);
 background: -ms-linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.9) 100%);
 background: linear-gradient(45deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,.9) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000', GradientType=1 );*/
    visibility: hidden;
     position: absolute;
     text-align:center;
