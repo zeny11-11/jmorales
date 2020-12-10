@@ -593,7 +593,7 @@ footer p {
 #contact {
    display:block;
    width:100%;
-   padding: 40px;
+   padding: 70px 40px;
    margin-bottom:40px;
    border-bottom:1px solid #ffffff;
 }
@@ -602,8 +602,8 @@ footer p {
    display: inline;
    padding: 20px 30px;
    margin: 20px auto;
-  border: thin solid #532ba8;
-  color: #532ba8e!important;
+   border: 2px solid #532ba8;
+   color: #532ba8e!important;
 }
 
 footer span {
@@ -612,14 +612,8 @@ footer span {
 
 [title~=notmobile] { 
     display:none;
-}
-
-footer a {
-   display:block;
-   width:200px;
-   margin:0 auto;
-   padding-top:5px;
-  }
+ }
+ 
 }
 
 
