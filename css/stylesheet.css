@@ -614,7 +614,7 @@ footer p {
 }
 
 #footer-contact-btn:hover {
-   color:#ffffff;
+   color: #ffffff!important;
    background: #532ba8;
 } 
 #footer-contact-btn:link {color:#532ba8;}      
