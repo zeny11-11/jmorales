@@ -457,7 +457,9 @@ nav ul li a {
 .about_div2 figcaption {
    font-size: 10px;
    font-style: italic;
-   margin-top: -10px;
+   margin: -10px auto 0 auto;
+   line-height: 1.75em;
+   width: 200px;
 }
 
 footer {
