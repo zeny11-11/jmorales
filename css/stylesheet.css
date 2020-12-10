@@ -605,11 +605,14 @@ footer p {
    border: 2px solid #532ba8;
    color: #532ba8e!important;
 }
-	
-#footer-contact-btn:link {color:#532ba8;}      /* unvisited link */
-#footer-contact-btn:visited {color:#532ba8;}  /* visited link */
-#footer-contact-btn:hover {color:#ffffff;}  /* mouse over link */
-#footer-contact-btn:active {color:#532ba8;}  /* selected link */
+
+#footer-contact-btn:hover {
+   color:#ffffff;
+   background: #532ba8;
+} 
+#footer-contact-btn:link {color:#532ba8;}      
+#footer-contact-btn:visited {color:#532ba8;} 
+#footer-contact-btn:active {color:#532ba8;} 
 
 footer span {
    display:none;
