@@ -604,8 +604,12 @@ footer img  {
    border-bottom:1px solid #ffffff;
 }
 
-#contact h1 {
-   margin-bottom:7px;
+#contact a {
+   display: inline-block;
+   padding: 20px 30px;
+   margin: 20px auto;
+  border: thin solid #532ba8;
+  color: #532ba8e;
 }
 
 #contact a {
