@@ -452,6 +452,10 @@ nav ul li a {
     outline:4px solid #37286f;*/
 }
 
+.about_div2 figcaption {
+   font-size: 10px;
+   font-style: italic;
+}
 
 footer {
     width:100%;
