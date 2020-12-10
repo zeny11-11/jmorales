@@ -281,7 +281,7 @@ nav ul li a {
   text-align:center;
   margin:0 auto;
   position: relative;
-   display: inline-block;
+  display: inline-block;
 }
 
 #filters .underline:after {
@@ -565,8 +565,7 @@ footer .underline:after {
 	
 
 #portfolio_sec {
-   padding-top:80px;
-   padding-bottom: 80px;
+   padding-top:50px;
 }
 
 #portfoliolist .portfolio:nth-child(even) { margin-left:1px;}
