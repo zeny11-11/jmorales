@@ -525,7 +525,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', end
     width: 100%;
     max-width:531px;
     height: auto;
-    mix-blend-mode: lighten;
+    mix-blend-mode: screen;
     /*border:40px solid #340080;
     outline:4px solid #37286f;*/
 	
