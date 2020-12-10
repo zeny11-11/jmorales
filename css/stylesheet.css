@@ -436,9 +436,11 @@ nav ul li a {
      justify-content: center;
      padding:20px;
      flex: 1;
-	
 }
 
+.about_div2 figure {
+	mix-blend-mode: lighten;
+}
 
 .me {
     overflow: hidden;
