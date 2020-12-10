@@ -576,10 +576,11 @@ footer .underline:after {
    padding-top:80px;
    padding-bottom:80px;
 }
-footer span {
-    display:none;
+	
+footer {
+   padding-top: 0;
 }
-
+	
 footer p { 
     display:block;
     text-align:center;
@@ -587,12 +588,6 @@ footer p {
     margin-right:auto;
     margin-bottom:6px;
     margin-left:auto;
-}
-
-footer img  {
-   display:block;
-   margin:0 auto;
-   margin-bottom:12px;
 }
 
 #contact {
@@ -605,18 +600,11 @@ footer img  {
 }
 
 #contact a {
-   display: inline-block;
+   display: inline;
    padding: 20px 30px;
    margin: 20px auto;
   border: thin solid #532ba8;
-  color: #532ba8e;
-}
-
-#contact a {
-   color: #ffffff;
-   font-weight:bold;
-   width:100%;
-   text-align:center;
+  color: #532ba8e!important;
 }
 
 footer span {
