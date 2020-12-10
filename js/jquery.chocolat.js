@@ -736,7 +736,7 @@
                           /* {src:'http://www.jacqueline-morales.com/images/gallery-images/AirPurifiers.jpg', title: 'Email Design and code for Air Purifiers America'}, */
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/BroadStreet.jpg', title: 'Brochure Design for BroadStreet'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/DS-Poster.jpg', title: 'Poster Design for The Downey Symphony'},
-                            {src:'http://www.jacqueline-morales.com/images/gallery-images/tchaikovsky-pster.jpg', title: 'Poster Design for Kings Theater'},
+                            {src:'http://www.jacqueline-morales.com/images/gallery-images/tchaikovsky-pster.jpg', title: 'Poster Design for Kings Theatre'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/iPage.jpg', title: 'Email Design for iPage'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/CN.jpg', title: 'Email design and code for Casting Networks'},
                             {src:'http://www.jacqueline-morales.com/images/gallery-images/PremierBedding-Coaster.jpg', title: 'Brochure Design for Coaster Company'},
