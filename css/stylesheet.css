@@ -252,6 +252,8 @@ nav ul li a {
     padding-top:150px;
     width:100%;
     margin: 0 auto;
+    z-index: 5;
+    position: sticky;
 }
 
 .gallery_nav {
