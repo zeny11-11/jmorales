@@ -405,6 +405,8 @@ nav ul li a {
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    z-index:7;
+    position: sticky;
 }
 
 
@@ -475,6 +477,8 @@ footer {
     padding-top:35px;
     padding-bottom:30px;
     font-size:19px;
+    z-index:7;
+    position: sticky;
 }
 
 footer p {
