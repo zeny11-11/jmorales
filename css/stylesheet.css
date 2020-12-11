@@ -144,7 +144,9 @@ nav ul li a {
    background: #532ba8;
    overflow-x: hidden;
    text-align:center;
-   z-index:-1000;
+   z-index:0;
+   top:0;
+   position: sticky;
 }
 
 
