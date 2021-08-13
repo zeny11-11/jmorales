@@ -54,6 +54,7 @@ section {
 /* ************** MAIN NAV ********************/
 
 #main_nav {
+	display:none;
 	width:100%;
 	height: 100px;
         padding: 25px;
