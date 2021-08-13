@@ -507,8 +507,10 @@ footer .underline:after {
 	color:#ffffff;
 	font-family: 'Playfair Display', serif;
 	font-size:3rem;
+	font-weight:600;
 	line-height:3rem;
 	text-align: left!important;
+	
 
 }
 
