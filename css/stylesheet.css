@@ -614,7 +614,7 @@ footer p {
    width:100%;
    padding: 70px 40px;
    margin-bottom:40px;
-   border-bottom:1px solid #ffffff;
+ /**  border-bottom:1px solid #ffffff; **/
 }
 
 #footer-contact-btn {
@@ -629,9 +629,9 @@ footer p {
    color: #ffffff!important;
    background: #532ba8;
 } 
-#footer-contact-btn:link {color:#532ba8;}      
-#footer-contact-btn:visited {color:#532ba8;} 
-#footer-contact-btn:active {color:#532ba8;} 
+#footer-contact-btn:link {color:#ffffff;}      
+#footer-contact-btn:visited {color:#ffffff;} 
+#footer-contact-btn:active {color:#ffffff;} 
 
 footer span {
    display:none;
