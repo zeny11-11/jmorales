@@ -394,6 +394,7 @@ nav ul li a {
 /************** ABOUT  *****************/
 
 #about_sec {
+    display:none;
     width:100%;
     background-color:#532ba8;
     overflow-x: hidden;
@@ -470,7 +471,7 @@ nav ul li a {
 
 footer {
     width:100%;
-    background-color:#7bc9ad;
+    background-color:#532ba8;
     color:#ffffff;
     margin:0 auto;
     text-align:center;
