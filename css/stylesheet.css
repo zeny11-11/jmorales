@@ -504,7 +504,7 @@ footer .underline:after {
 } 
 
 #contact {
-   display:none;
+
 }
 	
 
@@ -609,20 +609,6 @@ footer p {
     margin-left:auto;
 }
 
-#contact {
-   display:block;
-   width:100%;
-   padding: 70px 40px;
- /**  border-bottom:1px solid #ffffff; **/
-}
-
-#footer-contact-btn {
-   display: inline;
-   padding: 20px 30px;
-   margin: 20px auto;
-   border: 2px solid #532ba8;
-   color: #532ba8e!important;
-}
 
 #footer-contact-btn:hover {
    color: #ffffff!important;
