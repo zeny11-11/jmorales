@@ -475,9 +475,11 @@ footer {
     background-color:#532ba8;
     color:#ffffff;
     margin:0 auto;
-    text-align:center;
-    padding-top:35px;
-    padding-bottom:30px;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding-top:80px;
+    padding-bottom:80px;
     font-size:19px;
     z-index:7;
     position: sticky;
