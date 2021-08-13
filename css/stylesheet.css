@@ -403,7 +403,7 @@ nav ul li a {
     margin:0 auto;
     text-align:center;
     padding:150px 10px;
-    display: flex;
+ /**   display: flex; **/
     align-items: center;
     justify-content: center;
     flex-direction: row;
