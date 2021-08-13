@@ -496,16 +496,21 @@ footer a {
     color: #ffffff;
 }
 
-footer a.underline {
+/**footer a.underline {
     color:#ffffff!important;
 }
 footer .underline:after {
     background: #ffffff;
-} 
+} **/
 
-#contact {
+.contact {
+	color:#ffffff;
+	font-family: 'Playfair Display', serif;
+	font-size:3rem;
 
 }
+
+
 	
 
 /*  #Mobile  for Portfolio-  */
