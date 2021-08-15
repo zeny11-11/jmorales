@@ -618,8 +618,8 @@ footer .underline:after {
  * ----------------------------------------
  */
 .text-focus-in {
-   -webkit-animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
-   animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
+   -webkit-animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 3s both;
+   animation: text-focus-in 3s cubic-bezier(0.550, 0.085, 0.680, 0.530) 1s both;
 }
 
 @-webkit-keyframes text-focus-in {
