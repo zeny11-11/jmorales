@@ -712,7 +712,7 @@ footer .underline:after {
 
 @keyframes floating {
     from { transform: translate(0,  0px); }
-    15%  { transform: translate(0, 15px); }
+    15%  { transform: translate(0, 10px); }
     to   { transform: translate(0, -0px); }    
 }
 
