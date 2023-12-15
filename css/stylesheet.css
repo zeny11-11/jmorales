@@ -26,7 +26,7 @@ body {
 	color:#fff;
 	padding:0;
 	text-decoration:none;
-	background-color:#532ba8;
+	background-color:#1b1b1b;
 }
 
 a {
@@ -65,7 +65,7 @@ section {
 }
 
 .main_nav {
-     background-color:#532ba8;
+     background-color:#1b1b1b;
     transition: background-color 1000ms linear !important;
     -webkit-transition: background-color 1000ms linear !important;
     -moz-transition: background-color 1000ms linear !important;
@@ -142,7 +142,7 @@ nav ul li a {
    width:100%;
    height:600px;
    height:100vh;
-   background: #532ba8;
+   background: #1b1b1b;
    overflow-x: hidden;
    text-align:center;
    z-index:0;
@@ -248,7 +248,7 @@ nav ul li a {
 /* ************** PORTFOLIO ********************/
 
 #portfolio_sec {
-    background-color:#7bc9ad;
+    background-color:#131314;
     color:#ffffff;
     padding-top:150px;
     width:100%;
@@ -336,7 +336,7 @@ nav ul li a {
 }
 
 .project-overlay {
-  background: rgba(83, 43, 168, 1);
+  background: #1b1b1b;
   border : none/*2px solid #00DFFF*/;
   visibility: hidden;
   position: absolute;
